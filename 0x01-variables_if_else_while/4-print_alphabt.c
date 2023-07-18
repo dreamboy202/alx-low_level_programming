@@ -10,11 +10,11 @@ int main(void)
 
 	k = 'a';
 	while
-	(k <= 'a') {
-		if ((k != 'q' && k != 'e') && k <= 'z')
-			putchar(k);
-		k++;
-	}
+		(k <= 'z') {
+			if ((k != 'q' && k != 'e') && k <= 'z')
+				putchar(k);
+			k++;
+		}
 	putchar('\n');
 	return (0);
 }
