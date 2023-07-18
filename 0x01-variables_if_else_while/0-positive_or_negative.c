@@ -5,9 +5,7 @@
 /**
  * main - Entry point
  *
- *Description: 'The code description goes here'
-
- * Return : 0 (Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
