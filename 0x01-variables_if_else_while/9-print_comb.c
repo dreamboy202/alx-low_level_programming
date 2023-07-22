@@ -6,17 +6,28 @@
 
 int main(void)
 {
-	int a;
+	int i, j, k;
 
-	for (a = 0; a < 10; a++);
+	for (i = 0; i < 10; i++)
 	{
-		putchar(a + '0');
-		if (a < 9)
+		for (j = 0; j < 10; j++)
 		{
-			putchar(",");
-			putchar(' ');
+			for (k = 0; k < 10; k++)
+			{
+				putchar(i + '0');
+				putchar(j + '0');
+				putchar(k + '0');
+
+				if (i != 9 || j != 9 || k != 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
+
 	putchar('\n');
+
 	return (0);
 }
