@@ -1,29 +1,22 @@
 #include <stdio.h>
-/**
- * main - Entry point
- * Returin: 0 (Success)
- */
 
+/**
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int i, j, k;
+	int num;
 
-	for (i = 0; i < 10; i++)
+	for (num = 0; num < 10; num++)
 	{
-		for (j = 0; j < 10; j++)
-		{
-			for (k = 0; k < 10; k++)
-			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
+		putchar(num + '0');
 
-				if (i != 9 || j != 9 || k != 9)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+		if (num < 9)
+		{
+			putchar(',');
+			putchar(' ');
 		}
 	}
 
