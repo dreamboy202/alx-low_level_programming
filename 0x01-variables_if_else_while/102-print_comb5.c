@@ -26,7 +26,7 @@ int main(void)
 				putchar(tens2 + '0');
 				putchar(ones2 + '0');
 
-				if (num1 < 98 || num2 < 99) /* To print ',' and ' ' for all combinations except 99 99 */
+				if (num1 < 98 || num2 < 99)
 				{
 					putchar(',');
 					putchar(' ');
