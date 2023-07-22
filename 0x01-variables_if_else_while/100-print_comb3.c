@@ -9,6 +9,7 @@
 int main(void)
 {
 	int num = 0;
+
 	while (num < 100)
 	{
 		int ones = num % 10;
