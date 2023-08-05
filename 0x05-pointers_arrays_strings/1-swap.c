@@ -1,4 +1,5 @@
 #include "main.h"
+typedef int dummy;
 /**
  * swap_int - swaps the values of two integers
  * @a: integer to swap
