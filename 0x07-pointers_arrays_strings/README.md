@@ -1,26 +1,28 @@
-# C - Even more pointers, arrays and strings This direcory contains some certain files on C programming language, that will be compiled on Ubuntu 20.04 LTS using gcc using the options -Wall - Werror -Wextra -pedantic -std=gnu89
+# C - Even more pointers, arrays and strings 
+
+## This direcory contains some certain files on C programming language, that will be compiled on Ubuntu 20.04 LTS using gcc using the options -Wall - Werror -Wextra -pedantic -std=gnu89
 
 # TASKS.
 
-- memset
+- memset: 
 Write a function that fills memory with a constant byte.
 
-- memcpy 
+- memcpy: 
 Write a function that locates a character in a string
 
-- strchr
+- strchr: 
 Write a function that locates a character in a string.
 
-- strspn
+- strspn: 
 Write a function that gets the length of a prefix substring.
 
-- strpbrk
+- strpbrk: 
 Write a function that searches a string for any of a set of bytes.
 
-- strstr
+- strstr: 
 Write a function that locates a substring.
 
-- Chess is mental torture
+- Chess is mental torture: 
 Write a function that prints the chessboard.
 
 - The line of life is a ragged diagonal between duty and desire
