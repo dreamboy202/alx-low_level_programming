@@ -1,8 +1,8 @@
-#C - Recursion
+# C - Recursion
 
 ##This direcory contains some certain files on C programming language, that will be compiled on Ubuntu 20.04 LTS using gcc using the options -Wall - Werror -Wextra -pedantic -std=gnu89
 
-#TASKS.
+# TASKS.
 
 -She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 Write a function that prints a string, followed by a new line.
