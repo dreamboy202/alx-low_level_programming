@@ -7,7 +7,7 @@ Project done during **Full Stack Software Engineering studies** at **ALX School*
 * C files are written according to the C90 standard
 * Tested on Ubuntu 14.04 LTS
 
-##Files
+## Files
 All of the following files are program written in C:
 
 | Filename | Description |
