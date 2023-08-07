@@ -11,7 +11,7 @@
 int check_num(char *str)
 {
 /*Declaring variables*/
-    unsigned int count;
+	unsigned int count;
 
 		count = 0;
 		while (count < strlen(str)) /*count string*/
@@ -23,7 +23,7 @@ int check_num(char *str)
 
 			count++;
 		}
-	    return (1);
+	return (1);
 }
 
 /**
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	count = 1;
 	while (count < argc) /*Goes through the whole array*/
 	{
-		if (check_num(argv[count]))
+		if (check_num (argv[count]))
 			{
 				str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
 				sum += str_to_int;
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-    		count++;
+		count++;
 	}
 
 	printf("%d\n", sum); /*print sum*/
